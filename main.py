@@ -48,7 +48,7 @@ plt.ylabel('Dependent Variable')
 plt.xlabel('Independent Variable')
 plt.show()
 
-# local_file = 'data.csv'
+local_file = 'data.csv'
 # url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%202/data/china_gdp.csv"
 # request.urlretrieve(url, local_file)
 df = pd.read_csv(local_file)
